@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Cube from './components/Cube';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="item_1">
+        <h1 className="neon">Skorobohatov Sviatoslav</h1>
+        <a href="https://www.instagram.com/sc.svv/" className="Links">Instagram</a>
+        <a href="https://www.tiktok.com/@skorobohatov?" className="Links">Tik - Tok</a>
+        <a href="https://t.me/skorobohatov" className="Links">Telegram</a>
+        </div>
+        <div className="item_2">
+          <Cube className="cube" />
+        </div>
     </div>
   );
 }
