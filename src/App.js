@@ -3,6 +3,9 @@ import Cube from './components/Cube';
 
 
 function App() {
+
+  document.title = "Skorobohatov";
+  
   return (
     <div className="App">
         <div className="item_1">
